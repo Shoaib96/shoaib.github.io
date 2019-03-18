@@ -1,0 +1,64 @@
+.container {
+    width: 50%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+hr {
+    border: 1px solid #ccf2ff;
+}
+h1 {
+    color: #b3ecff;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0; 
+    font-size: 18px;
+}
+input {
+    background-color:  #cce0ff;
+}
+button {
+    background-color:  #4d94ff;
+    margin-left: 20px;
+    color: white;
+    float: right;
+}
+section {
+    width: 60%;
+    margin-top: 30px;
+}
+.task {
+ font-size: 30px;
+ color: #cce0ff;
+ list-style: none;
+ cursor: pointer;
+ margin-top: 10px; 
+}
+.done {
+    text-decoration: line-through;
+}
+.danger {
+    background-color: red;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    input, button, .danger {
+        font-size: 8px;
+    }
+    .task {
+        font-size: 18px;
+    }
+  }
+  
